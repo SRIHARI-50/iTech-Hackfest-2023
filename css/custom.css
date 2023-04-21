@@ -498,6 +498,7 @@ hr{
 
 /* ---- Prevent user from being able to double click ---- */
 .no-select {
+  user-select: none;
   -webkit-user-select: none; /* webkit (safari, chrome) browsers */
   -moz-user-select: none; /* mozilla browsers */
   -khtml-user-select: none; /* webkit (konqueror) browsers */
@@ -627,6 +628,7 @@ p {
   opacity: 1;
   background: url("../img/title-scrolling.png");
   background-repeat: repeat-x;
+  background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate 150s linear infinite;
@@ -652,6 +654,7 @@ p {
   opacity: 1;
   background: url("../img/title-scrolling.png");
   background-repeat: repeat-x;
+  background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate 150s linear infinite;
@@ -763,10 +766,10 @@ p {
   
 }
 
-.table td {
+/* .table td {
 
   
-}
+} */
 
 .table tbody tr td {
   vertical-align: middle;
@@ -876,7 +879,7 @@ p {
 
 
 th{
-  background: #ba68c8;
+  background: #F0B036;
   text-transform: uppercase;
   color: #fafafa;
 }
