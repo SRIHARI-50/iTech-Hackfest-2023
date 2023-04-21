@@ -1,0 +1,53 @@
+#title{
+    display:block !important;
+}
+
+#title1{
+    display:none !important;
+}
+
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    h1{
+        font-size: 20px !important;
+    }
+
+    #heading{
+        font-size: 20px !important;
+    }
+
+    p{
+        font-size: 10px !important;
+    }
+
+    #subheading{
+        font-size: 10px !important;
+        margin-left: 40% !important;
+    }
+
+    #ft{
+        font-size: 10px !important;
+    }
+    #ss{
+        font-size: 10px !important;
+    }
+
+    a #heading{
+        height: 30% !important;
+    }
+
+    .cardsdiv{
+        flex-direction: column !important;
+        width: 50% !important;
+        margin-left: 30% !important;
+    }
+
+    #title{
+        display:none !important;
+    }
+
+    #title1{
+        display:block !important;
+    }
+
+}
