@@ -6,11 +6,11 @@
     display:none !important;
 }
 
-#prize{
+#mobile{
     display:block !important;
 }
 
-#prize1{
+#mobile1{
     display:none !important;
 }
 
@@ -18,11 +18,20 @@
         #heading{
             margin-top: 12% !important;
         }
-    #prize2{
+    #mobile2{
         display:none !important;
     }
 
-    #prize1{
+    #mobile1{
         display:block !important;
+    }
+
+    #subheading{
+        font-size: 10px !important;
+        margin-left: 3% !important;
+    }
+
+    #subheading1{
+        font-size: 18px !important;
     }
 }
