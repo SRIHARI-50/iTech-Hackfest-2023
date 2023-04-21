@@ -1,0 +1,45 @@
+#prize{
+    display:block !important;
+}
+
+#prize1{
+    display:none !important;
+}
+#mobile{
+    display:block !important;
+}
+
+#mobile1{
+    display:none !important;
+}
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    h1{
+        font-size: 30px !important;
+    }
+
+    p{
+        font-size: 12px !important;
+    }
+
+    a #heading{
+        height: 30% !important;
+    }
+
+    #prize2{
+        display:none !important;
+    }
+
+    #prize1{
+        display:block !important;
+    }
+
+    #mobile2{
+        display:none !important;
+    }
+
+    #mobile1{
+        display:block !important;
+    }
+
+}
+
