@@ -24,8 +24,8 @@
         font-size: 20px !important;
     }
 
-    p{
-        font-size: 10px !important;
+    p {
+        font-size: 15px !important;
     }
 
     table{
@@ -74,6 +74,7 @@
 
     #title1{
         display:block !important;
+        padding-top: 0.35em !important;
     }
 
 }
