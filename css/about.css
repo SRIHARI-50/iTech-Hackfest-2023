@@ -1,0 +1,28 @@
+#title{
+    display:block !important;
+}
+
+#title1{
+    display:none !important;
+}
+
+#prize{
+    display:block !important;
+}
+
+#prize1{
+    display:none !important;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+        #heading{
+            margin-top: 12% !important;
+        }
+    #prize2{
+        display:none !important;
+    }
+
+    #prize1{
+        display:block !important;
+    }
+}
