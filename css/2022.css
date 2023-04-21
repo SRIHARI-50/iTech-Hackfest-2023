@@ -2,11 +2,6 @@
     display:block !important;
 }
 
-#title1{
-    display:none !important;
-}
-
-
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
     h1{
         font-size: 20px !important;
@@ -36,18 +31,7 @@
         height: 30% !important;
     }
 
-    .cardsdiv{
-        flex-direction: column !important;
-        width: 50% !important;
-        margin-left: 30% !important;
-    }
-
     #title{
         display:none !important;
     }
-
-    #title1{
-        display:block !important;
-    }
-
 }
