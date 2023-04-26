@@ -13,16 +13,20 @@
 #prize1{
     display:none !important;
 }
+th{
+    text-align: center;
+}   
 
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
     #heading{
         margin-top: 12% !important;
     }
     table{
-        font-size: 9px !important;
+        font-size: 8.5px !important;
         width: 70% !important;
-        margin-left: 1% !important;
+        margin-left: 0% !important;
     }
+    
     #prize2{
         display:none !important;
     }
