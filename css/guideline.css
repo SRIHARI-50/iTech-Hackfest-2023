@@ -25,7 +25,7 @@ select {
     text-align: left !important;
     transition: all 0.2s ease-in-out;
     -webkit-user-select: none;
-       -moz-user-select: none;
+      -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
     white-space: nowrap;
