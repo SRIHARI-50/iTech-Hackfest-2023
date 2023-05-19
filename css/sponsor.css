@@ -21,6 +21,9 @@ th{
     #heading{
         margin-top: 12% !important;
     }
+    #heading2{
+        font-size: 1em !important;
+    }
     table{
         font-size: 8.5px !important;
         width: 70% !important;
