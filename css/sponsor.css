@@ -26,8 +26,9 @@ th{
     }
     table{
         font-size: 8.5px !important;
-        width: 70% !important;
-        margin-left: 0% !important;
+        width: 100% !important;
+        margin-left: 3% !important;
+        overflow: scroll !important;
     }
     
     #prize2{
